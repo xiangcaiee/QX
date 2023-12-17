@@ -1,3 +1,8 @@
+/*
+击败敌人 去广告（变身：小柿子）
+
+[rewrite local]
 ^http:\/\/162\.209\.174\.251:12345\/xsz\.php\/v6\/top_notice\?token url reject-200
 ^https:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg\?posid url reject-200
 ^http:\/\/162\.209\.174\.251:12345\/xsz\.php\/v6\/advert\?position=9&pkid url reject-200
+*/
