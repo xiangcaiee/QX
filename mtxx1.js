@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/bail-mingsy/QX/main/mtxx
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/bail-mingsy/QX/main/mtxx1.js
 
 [mitm]
 
