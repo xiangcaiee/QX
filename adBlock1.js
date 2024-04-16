@@ -1,6 +1,5 @@
-// ScriptName   套壳影视adblock
-// ScriptURL    https://raw.githubusercontent.com/bail-mingsy/QX/main/adBlock.js
-
+// 脚本功能   套壳影视adblock
+// 脚本作者   xiangcaiee    
 
 hostname = *pangolin-sdk-toutiao*, mi.gdt.qq.com, open.e.kuaishou.com
 
