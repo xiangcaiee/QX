@@ -199,7 +199,7 @@ DOMAIN-KEYWORD,youtube,Proxy
 DOMAIN-KEYWORD,facebook,Proxy
 DOMAIN-SUFFIX,fb.me,Proxy
 DOMAIN-SUFFIX,fbcdn.net,Proxy
-DOMAIN-KEYWORD,twitter,Proxy  
+DOMAIN-KEYWORD,twitter,Proxy
 DOMAIN-KEYWORD,dropbox,Proxy
 DOMAIN-SUFFIX,twimg.com,Proxy
 DOMAIN-KEYWORD,blogspot,Proxy
