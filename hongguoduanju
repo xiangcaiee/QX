@@ -1,0 +1,38 @@
+// 脚本功能   红果短剧adblock
+// 脚本作者   xiangcaiee 
+
+hostname = pangolin-sdk-toutiao, *pglstatp-toutiao.com, *pstatp.com, *snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com
+
+#> Huya
+^https?://videobd-platform.cdn.huya.com/ url reject-dict
+
+#> Pangolin / Toutiao
+^https?:\/\/[^/]*\.pangolin-sdk-toutiao[0-9]*\.com\/ url reject-dict
+^https?:\/\/[^/]*\.pglstatp-toutiao[0-9]*\.com/ url reject-dict
+^https?:\/\/[^/]*\.pstatp\.io\/ url reject-dict
+
+#> Pangolin 广告 API
+^https?:\/\/[^/]*\.pangolin-sdk-toutiao[0-9]*\.com\/api\/ad\/union\/sdk\/(?:get_ads|stats|settings)\/ url reject-dict
+
+#> Pangle
+^https?:\/\/[^/]*\.pangle\.io\/ url reject-dict
+
+#> Zijie API
+^https?:\/\/ads[0-9]*-normal(?:-[a-z0-9]+)?\.zijieapi\.com\/ url reject-dict
+^https?:\/\/minigame[0-9]*-normal(?:-[a-z0-9]+)?\.zijieapi\.com\/ url reject-dict
+^https?:\/\/p[0-9]+-ad-sign\.byteimg\.com\/ url reject-dict
+^https?:\/\/p[0-9]+-developer-sign\.bytemaimg\.com\/ url reject-dict
+^https?:\/\/(?:ecom[0-9]*-normal|ec[0-9]*-core|isaas[0-9]*-normal)-lq\.ecombdapi\.com\/ url reject-dict
+
+#> 广告
+^https?:\/\/v[0-9]+-(?:(?:bd|se|se-sjy)-daily-)?reading-ad\.qznovelvod\.com\/ url reject-dict
+
+#> UGSDK
+^https?:\/\/praisewindow\.ugsdk\.cn\/ url reject-dict
+^https?:\/\/praisewindow-sinfonlinea\.ugsdk\.cn\/ url reject-dict
+^https?:\/\/zlink\.ugsdk\.cn\/ url reject-dict
+^https?:\/\/www\.chengzijianzhan\.com\/ url reject-dict
+
+#> Snssdk 广告 API
+^https?:\/\/[^/]*\.(?:pglstatp-toutiao|pstatp)\.com\/(?:obj|img)\/(?:ad-app-package|ad|ad-pattern)\/ url reject-dict
+^https?:\/\/[^/]*\.snssdk\.com\/api\/ad\/ url reject-dict
