@@ -1,7 +1,7 @@
 // 脚本功能   红果短剧adblock
 // 脚本作者   xiangcaiee 
 
-hostname = pangolin-sdk-toutiao, *pglstatp-toutiao.com, *pstatp.com, *snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com
+hostname = pangolin-sdk-toutiao, *pglstatp-toutiao.com, *pstatp.com, *snssdk.com
 
 #> Huya
 ^https?://videobd-platform.cdn.huya.com/ url reject-dict
